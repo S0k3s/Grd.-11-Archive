@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a;
+	double fact = 1;
+	cout << "Enter number to be factored here: ";
+	cin >> a;
+
+	for (int i = 1; i <= a; i++) {
+		fact = fact * i;
+	}
+
+	cout << "Answer: " << fact << endl;
+
+	return 0;
+}
